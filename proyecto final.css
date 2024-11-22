@@ -1,0 +1,156 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegación */
+.custom-navbar {
+    background: #004aad;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('fondo.jpg') center/cover no-repeat;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-section img {
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Acerca de Mí */
+.about-section {
+    background: #e3f2fd;
+    padding: 50px 20px;
+    border-top: 4px solid #004aad;
+    border-bottom: 4px solid #004aad;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2.8rem;
+    color: #004aad;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.about-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 15px;
+    line-height: 1.8;
+    color: #333;
+}
+.about-section p:last-of-type {
+    font-style: italic;
+    color: #00509e;
+}
+
+/* Slider */
+.carousel-item h2 {
+    font-size: 2rem;
+    color: #004aad;
+}
+.carousel-item img {
+    border: 3px solid #004aad;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background: #004aad;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Proyectos */
+#proyectos {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+#proyectos h2 {
+    font-size: 2.5rem;
+    color: #004aad;
+}
+#proyectos iframe {
+    border: 2px solid #004aad;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background: #004aad;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+.footer a {
+    color: #ffcc00;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.footer a:hover {
+    color: white;
+}
+
+/* Botones */
+a.btn {
+    padding: 10px 20px;
+    background: #004aad;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.btn:hover {
+    background: #003080;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .about-section h1,
+    #proyectos h2 {
+        font-size: 2rem;
+    }
+}

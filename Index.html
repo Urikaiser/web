@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Uriel Alejandro Molina Escalante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="proyecto final.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>Mi Portafolio</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#acerca-de-mi">Acerca de mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#slider">Secciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center py-5">
+        <div class="container">
+            <img src="Foto Perfil.jpeg" alt="Uriel Alejandro Molina Escalante" class="rounded-circle mb-3" width="150">
+            <h1>Uriel Alejandro Molina Escalante</h1>
+            <p class="lead">Ingeniero en Animación Digital y Efectos Visuales</p>
+        </div>
+    </header>
+
+    <!-- Acerca de Mí -->
+    <header id="acerca-de-mi" class="about-section text-center py-5">
+        <div class="container">
+            <h1 class="mb-4">Acerca de Mí</h1>
+            <p>
+                ¡Hola! Soy Uriel Alejandro Molina Escalante, un estudiante de la carrera en animación digital y efectos visuales.
+                Soy un animador 3D y manejo el rigging de manera excelente dando escenas animadas con un excelente detalle.
+            </p>
+            <p>
+                Así mismo tengo conocimientos para la programación en videojuegos 2D y 3D.
+            </p>
+            <p>Además, cuento con habilidades en diseño 2D, desarrollo de historias, y creación de personajes.</p>
+            <p>
+                ¡Explora mi portafolio para conocer más sobre mi trabajo y mis proyectos destacados!
+            </p>
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <section id="slider" class="py-5 bg-light text-center">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <h2>Habilidades</h2>
+                        <p>Puedo animar en diferentes programas 3D como Blender y 3D Max,se simulacion de humo,agua y particulas.</p>
+                        <p>Manejo ilutraciones 2D, coloreo de personajes,creacion de los mismos y elaboracion de fondos.</p> 
+                        <p>Se sobre fotografia, edicion de imagenes,edicion de video, edicion de audio y VFX mediante After effects.</p>
+                        <img src="imagen.gif" alt="Habilidades" class="d-block mx-auto rounded-circle" width="200">
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <h2>Educación</h2>
+                        <p>Instituto Tecnologico Superior Progreso 2020-2024</p>
+                        <p>Conrado Menendez Díaz 2016-2019</p>
+                        <img src="ITSP.png" alt="Educación" class="d-block mx-auto rounded-circle" width="200">
+                    </div>
+                    <!-- Slide 3 (Gráfico radial) -->
+                    <div class="carousel-item">
+                        <h2>Gráfico de Habilidades</h2>
+                        <canvas id="graficoRadial" width="400" height="400"></canvas>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3>Dibujo 2D personal</h3>
+                    <iframe src="dibujo 2 de ochaku terminado(con fondo).png" width="100%" height="525"></iframe>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h3>Flyer publicitario</h3>
+                    <iframe src="Flyer-Uriel Molina-Mejorado.mp4" width="50%" height="400"></iframe>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4>Animacion 3D Universidad</h4>
+                    <iframe src="final.mp4" width="100%" height="300"></iframe>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4>Dibujo a Escala de Grises</h4>
+                    <iframe src="Molina_Uriel_EG_Corregido.png" width="100%" height="500"></iframe>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4>Video de Simulacion en 3D</h4>
+                    <iframe src="competencia tema 4_Uriel Molina.mp4" width="100%" height="300"></iframe>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4>Video de Comercial</h4>
+                    <iframe src="Iluminación Y Render Parcial 4 Final.mp4" width="100%" height="300"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <footer id="contacto" class="footer py-4 text-center">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Teléfono: <a href="tel:+9995279307" class="footer-link">+9995279307</a></p>
+            <p>Email: <a href="mailto:Urielmolinaescalante@gmail.com" class="footer-link">Urielmolinaescalante@gmail.com</a></p>
+            <p>Portafolio: <a href="https://www.behance.net/gallery/185654891/Portafolio-de-Trabajos" target="_blank" class="footer-link">Mi Portafolio</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="java final.js"></script>
+</body>
+</html>
